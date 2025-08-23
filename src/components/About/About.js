@@ -1,7 +1,7 @@
 import $ from 'jquery'
 import { useEffect } from 'react'
 import Typed from 'react-typed'
-import { about } from '../../portfolio'
+import { about } from '../../portfolioConfig'
 import './About.scss'
 
 const About = () => {
@@ -49,7 +49,7 @@ const About = () => {
         </a>
         {resume && (
           <a
-            href='https://drive.google.com/file/d/1aD89iV7_m88ciFaC1EgcWLanxTzi6HHN/view?usp=sharing'
+            href={resume}
             target='_blank'
             title='Resume'
             rel='noreferrer'

@@ -2,7 +2,7 @@ import { useContext, useState } from 'react'
 import Brightness2Icon from '@material-ui/icons/Brightness2'
 import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import { ThemeContext } from '../../contexts/theme'
-import { projects, skills, contact, about } from '../../portfolio'
+import { projects, skills, contact, about } from '../../portfolioConfig'
 import './Navbar.scss'
 
 const Navbar = () => {
@@ -50,7 +50,7 @@ const Navbar = () => {
         {resume && (
           <li className='nav-list-item'>
             <a
-              href='https://drive.google.com/file/d/1aD89iV7_m88ciFaC1EgcWLanxTzi6HHN/view?usp=sharing'
+              href={resume}
               target='_blank'
               title='Resume'
               rel='noreferrer'

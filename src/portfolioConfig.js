@@ -10,9 +10,9 @@ const about = {
   name: 'George Bastock',
   role: 'Full Stack Web Dev',
   resume:
-    'https://drive.google.com/file/d/1aD89iV7_m88ciFaC1EgcWLanxTzi6HHN/view?usp=sharing',
+    'https://drive.google.com/file/d/1cvyH9zGZVaZG9a41C1Uc80WclerDyQxg/view?usp=sharing',
   social: {
-    linkedin: 'https://www.linkedin.com/in/george-bastock',
+    linkedin: 'https://www.linkedin.com/in/georgebastock',
     github: 'https://github.com/georgebastock',
   },
 }

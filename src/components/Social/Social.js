@@ -1,4 +1,4 @@
-import { about, contact } from '../../portfolio'
+import { about, contact } from '../../portfolioConfig'
 import './Social.scss'
 
 const Social = () => {
